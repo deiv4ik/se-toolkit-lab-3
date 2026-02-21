@@ -9,7 +9,7 @@ Fill in each answer below. Replace `___` with the correct value.
 1. HTTP method: GET
 2. Path: /items
 3. Status code (success): 200
-4. Response type (array or object): 
+4. Response type (array or object): array
 
 ### GET /items/{item_id}
 
@@ -28,5 +28,5 @@ Fill in each answer below. Replace `___` with the correct value.
 
 ## Authentication
 
-1. What happens when you call an endpoint without the API key? (status code): will write the error
+1. What happens when you call an endpoint without the API key? (status code): 401
 2. Where do you set the API key value for Docker Compose? (file name): .env.docker.secret
